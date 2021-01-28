@@ -4,8 +4,21 @@
   "main": "index.js",
   "repository": "git@github.com:KaiserPhemi/react-ts-template.git",
   "author": "KaiserPhemi <kaiser.phemi@protonmail.ch>",
+  "scripts": {
+    "start": "webpack"
+  },
   "license": "MIT",
   "dependencies": {
-    "typescript": "^3.9.5"
+    "@material-ui/core": "^4.11.3",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.14",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0"
   }
 }
